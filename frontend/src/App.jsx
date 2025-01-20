@@ -32,7 +32,7 @@ function App() {
         <Route path='/orders' element={<Orders/>}/>
         <Route path='/placeorder' element={<Placeorder/>}/>
         <Route path='/product/:productId' element={<Product/>}/>
-        <Route path='/verify/' element={<Verify/>}/>
+        <Route path='/verify' element={<Verify/>}/>
       </Routes>
       <Footer />
     </div>
