@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes,Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Collection from './pages/Collection'
 import About from './pages/About'
@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Verify from './pages/verify'
+import Verify from './pages/Verify'
 
 function App() {
   return (
@@ -23,16 +23,16 @@ function App() {
       <Navbar />
       <SearchBar />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/collection' element={<Collection/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/cart' element={<Cart/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-        <Route path='/login' element={<Login/>}/>
-        <Route path='/orders' element={<Orders/>}/>
-        <Route path='/placeorder' element={<Placeorder/>}/>
-        <Route path='/product/:productId' element={<Product/>}/>
-        <Route path='/verify/' element={<Verify/>}/>
+        <Route path='/' element={<Home />} />
+        <Route path='/collection' element={<Collection />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/orders' element={<Orders />} />
+        <Route path='/placeorder' element={<Placeorder />} />
+        <Route path='/product/:productId' element={<Product />} />
+        <Route path='/verify' element={<Verify />} />
       </Routes>
       <Footer />
     </div>
