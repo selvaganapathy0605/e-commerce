@@ -7,8 +7,8 @@ import axios from 'axios'
 export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
     const money = '₹';
-    const delivery_fee = 10;
-    const backendURL = import.meta.env.VITE_BACKEND_URL
+    const delivery_fee = 10;  
+    const backendURL = "https://e-commerce-backend-dgac.onrender.com"
     const [search, setSearch] = useState('')
     const [showSearch, setShowSearch] = useState(false)
     const [cartItems, setCartItems] = useState({})
