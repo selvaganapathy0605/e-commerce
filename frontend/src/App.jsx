@@ -23,7 +23,6 @@ function App() {
       <Navbar />
       <SearchBar />
       <Routes>
-<<<<<<< HEAD
         <Route path='/' element={<Home />} />
         <Route path='/collection' element={<Collection />} />
         <Route path='/about' element={<About />} />
@@ -34,18 +33,6 @@ function App() {
         <Route path='/placeorder' element={<Placeorder />} />
         <Route path='/product/:productId' element={<Product />} />
         <Route path='/verify' element={<Verify />} />
-=======
-        <Route path='/' element={<Home/>}/>
-        <Route path='/collection' element={<Collection/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/cart' element={<Cart/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-        <Route path='/login' element={<Login/>}/>
-        <Route path='/orders' element={<Orders/>}/>
-        <Route path='/placeorder' element={<Placeorder/>}/>
-        <Route path='/product/:productId' element={<Product/>}/>
-        <Route path='/verify' element={<Verify/>}/>
->>>>>>> 0b090ea36502cc3a8b8195321612fa000c174723
       </Routes>
       <Footer />
     </div>
